@@ -1,6 +1,5 @@
 #!/usr/bin/node
 const request = require('request');
-
 const apiUrl = process.argv[2];
 
 request.get(apiUrl, (error, response, body) => {
@@ -16,7 +15,8 @@ request.get(apiUrl, (error, response, body) => {
     for (const characterUrl of film.characters) {
       if (characterUrl.includes('/18/')) {
         wedgeAntillesCount++;
-        break; 
+        break;
+        
       }
     }
   }
