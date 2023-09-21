@@ -16,7 +16,6 @@ request.get(apiUrl, (error, response, body) => {
       if (characterUrl.includes('/18/')) {
         wedgeAntillesCount++;
         break;
-        
       }
     }
   }
