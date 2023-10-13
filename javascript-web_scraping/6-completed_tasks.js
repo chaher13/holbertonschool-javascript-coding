@@ -23,7 +23,7 @@ request.get(apiUrl, (error, response, body) => {
       }
     });
 
-    console.log(completedTasksByUser);
+    consoe.log(completedTasksByUser);
   } else {
     console.error('Unexpected status code:', response.statusCode);
   }
