@@ -6,7 +6,7 @@ function countStudents(path) {
     const lines = data.split('\n').filter((line) => line.trim() !== '');
 
     let index = 1;
-    const totalStudents = lines.length - 1;
+    const totalStudents = lines.length - 1; 
     const studentsByField = {};
 
     while (index < lines.length) {
