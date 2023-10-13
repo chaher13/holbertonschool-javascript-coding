@@ -9,6 +9,7 @@ function countStudents(path) {
       }
 
       const lines = data.trim().split('\n').slice(1);
+      const studentsByField = {};
 
       lines.forEach((line) => {
         const [firstname, , , field] = line.split(',');
