@@ -9,9 +9,7 @@ export default class StudentController {
         students.push('This is the list of our students');
 
         for (const key of Object.keys(fields)) {
-          message = `Number of students in ${key}: ${
-            fields[key].length
-          }. List: ${fields[key].join(', ')}`;
+          message = `Number of students in ${key}: ${fields[key].length}. List: ${fields[key].join(', ')}`;
           students.push(message);
         }
 
